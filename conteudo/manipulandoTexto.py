@@ -24,7 +24,7 @@ print(frase[::2])#pulando dois em dois
 
 print(len(frase))
 
-print(frase.count('o'))#contar quantos o tem na frase
+print(frase.count('o'))#contar quantos 'o' tem na frase
 
 print(frase.count('o',0,13))#usando slice 
 

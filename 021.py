@@ -2,7 +2,7 @@
 
 import pygame
 
-pygame.mixer.init()
-pygame.mixer.music.load('Flores.mp3')
+pygame.init()
+pygame.mixer.music.load('flores.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
