@@ -6,4 +6,4 @@ r = int(input("Razao: "))
 decimo = p + (10 - 1) * r
 for c in range(p, decimo, r):
     print("{}".format(c), end=' > ')
-print('FIM!')    
+print('FIM!{}'.format(decimo))    
