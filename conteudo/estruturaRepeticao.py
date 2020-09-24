@@ -28,7 +28,7 @@ print("O somatorio de todos os valores foi {} ".format(s))    '''
 
 '''WHILE'''
 
-c = 1
+'''c = 1
 while c <10:
     print(c)
     c += 1
@@ -49,4 +49,13 @@ r = 's'
 while r == 's':
     n = int(input("DIgite um valor: "))
     r = str(input("Deseja continuar [S/N] ")).lower()
-print("FIM!!!")    
+print("FIM!!!")    '''
+
+n = s = 0
+while True:
+    n = int(input("DIgite um valor: "))
+    if n == 999:
+        break
+    s += n
+print("A Soma vale {} ".format(s))    
+print(f"A Soma vale {s}  ")
