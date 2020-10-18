@@ -10,4 +10,4 @@ if n == jogador:
 elif n == 1 and jogador == 3 or n == 2 and jogador == 1 or n == 3 and jogador == 2:
     print("Voce escolheu: {} e o Computador: {}\n Voce Perdeu!".format(jogador,n))
 else:
-    print("Voce escolheu: {} e o Computador: {}\n Voce Ganhou!".format(jogador,n))    
+    print("Voce escolheu: {} e o Computador: {}\n Voce Ganhou!".format(jogador,n))

@@ -59,5 +59,42 @@ b = a[:]#assim fazemos uma copia de lista
 print(f'Lista A: {a}\nLista B: {b}\n')
 
 b[2] = 3 
-print(f'Lista A: {a}\nLista B: {b}')
+print(f'Lista A: {a}\nLista B: {b}\n \n')
 
+##########Parte 2
+
+teste = list()
+teste.append('Edson')
+teste.append(40)
+print(teste)
+galera = list()
+galera.append(teste)
+print(galera)
+teste[0] = 'Edna'
+teste[1] = 49
+print(galera)
+galera.append(teste[:])
+print(galera)
+print(30 * '=')
+
+pessoas = [['Edson',31], ['Edna', 49], ['Junior',21], ['Hiromi',70]]
+print(pessoas[0])
+print(pessoas[2][1])
+
+for p in pessoas:
+    print(f'{p[0]} tem {p[1]} anos ')
+
+
+galera = list()
+dado = list()
+for c in range(0, 3):
+    dado.append(str(input('Nome: ')))
+    dado.append(int(input('Idade: ')))   
+    galera.append(dado[:])
+    dado.clear()
+print(galera)
+print(dado)   
+
+for p in galera:
+    if p[1] >= 27:
+        print(f'{p[0]} é maior de 26')
